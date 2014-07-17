@@ -1,0 +1,15 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="css/movie.css">
+	</head>
+	<body>
+		<ol>
+			<% @ten_movies.each do |poster_url| %>	
+				<li>
+					<img src="<%= poster_url %>" alt="" class="image">
+				</li>
+			<% end %>
+		</ol>
+	</body>
+</html>
+

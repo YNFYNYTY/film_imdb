@@ -1,0 +1,11 @@
+.image {
+	border-radius: 10px;
+	height: 300px;
+	height: 200px;
+
+	box-shadow: 2px 2px 2px #888888;
+}
+ol li {
+	display: inline-block;
+}
+
